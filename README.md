@@ -12,13 +12,12 @@ Programmation orientée objet en Java : relations d’héritage, polymorphisme, 
 
 # 🗂️ Structure du projet
 
-/src
-│
-
-├── observer/
-│   ├── Observer.java          # Classe abstraite pour les observateurs
-│   └── Subject.java           # Classe abstraite pour les sujets observés
-│
+/src.␣␣ 
+│.␣␣ 
+├── observer/.␣␣ 
+│   ├── Observer.java          # Classe abstraite pour les observateurs.␣␣ 
+│   └── Subject.java           # Classe abstraite pour les sujets observés.␣␣ 
+│.␣␣ 
 
 ├── screens/
 │   ├── AirportScreen.java     # Écran global affichant tous les vols
