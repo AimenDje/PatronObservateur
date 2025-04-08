@@ -10,29 +10,28 @@ Encapsulation & abstraction : à travers les classes comme Flight, Gate, Termina
 
 Programmation orientée objet en Java : relations d’héritage, polymorphisme, encapsulation, surcharge de méthodes.
 
-# 🗂️ Structure du projet
+<h2>📁 Structure du projet</h2>
 
-/src.␣␣ 
-│.␣␣ 
-├── observer/.␣␣ 
-│   ├── Observer.java          # Classe abstraite pour les observateurs.␣␣ 
-│   └── Subject.java           # Classe abstraite pour les sujets observés.␣␣ 
-│.␣␣ 
-
+<pre style="background-color: #f6f8fa; padding: 16px; border-radius: 8px; font-family: 'Courier New', monospace;">
+/src
+│
+├── observer/
+│   ├── Observer.java         # Classe abstraite pour les observateurs
+│   └── Subject.java          # Classe abstraite pour les sujets observés
+│
 ├── screens/
-│   ├── AirportScreen.java     # Écran global affichant tous les vols
-│   ├── TerminalScreen.java    # Écran pour chaque terminal
-│   └── GateScreen.java        # Écran pour chaque porte
+│   ├── AirportScreen.java    # Écran global affichant tous les vols
+│   ├── TerminalScreen.java   # Écran pour chaque terminal
+│   └── GateScreen.java       # Écran pour chaque porte
 │
-
 ├── airport/
-│   ├── Flight.java            # Représente un vol
-│   ├── Gate.java              # Représente une porte d’embarquement
-│   ├── Terminal.java          # Représente un terminal
-│   └── Airport.java           # Représente l’aéroport au complet
+│   ├── Flight.java           # Représente un vol
+│   ├── Gate.java             # Représente une porte d’embarquement
+│   ├── Terminal.java         # Représente un terminal
+│   └── Airport.java          # Représente l’aéroport au complet
 │
-
-└── ConsoleApp.java            # Application principale (simulation console)
+└── ConsoleApp.java           # Application principale (simulation console)
+</pre>
 
 # ✨ Fonctionnalités
 
@@ -77,6 +76,7 @@ AC168 Amsterdam 1528 C-2 ON TIME
 # 🛠️ Instructions de compilation et d'exécution
 Compiler :
 - javac -d bin src/**/*.java
+
 Exécuter :
 - java -cp bin ConsoleApp
 
