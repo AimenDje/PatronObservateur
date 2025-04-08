@@ -11,23 +11,28 @@ Encapsulation & abstraction : à travers les classes comme Flight, Gate, Termina
 Programmation orientée objet en Java : relations d’héritage, polymorphisme, encapsulation, surcharge de méthodes.
 
 # 🗂️ Structure du projet
+
 /src
 │
+
 ├── observer/
 │   ├── Observer.java          # Classe abstraite pour les observateurs
 │   └── Subject.java           # Classe abstraite pour les sujets observés
 │
+
 ├── screens/
 │   ├── AirportScreen.java     # Écran global affichant tous les vols
 │   ├── TerminalScreen.java    # Écran pour chaque terminal
 │   └── GateScreen.java        # Écran pour chaque porte
 │
+
 ├── airport/
 │   ├── Flight.java            # Représente un vol
 │   ├── Gate.java              # Représente une porte d’embarquement
 │   ├── Terminal.java          # Représente un terminal
 │   └── Airport.java           # Représente l’aéroport au complet
 │
+
 └── ConsoleApp.java            # Application principale (simulation console)
 
 # ✨ Fonctionnalités
